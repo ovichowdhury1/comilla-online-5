@@ -471,6 +471,19 @@ ul li {
 .Contact-Padding{
     padding: 100px 0 0 0 !important;
     
+}  
+
+@media(max-width: 576px ){
+          .Client-padding{
+            padding-top: 60px !important ;
+            padding-bottom: 30px !important ;
+          }
+
+          .Contact-Padding{
+            padding: 30px 0 0 0 !important;
+            
+        }  
+        
 }
 
 /* Top Bar */
@@ -490,6 +503,17 @@ ul li {
 
 .Contact-Padding p{
     margin-bottom: 0 !important;
+}  
+
+@media(max-width: 576px){
+    .Contact-Padding h2{
+     font-size: 1.5rem ;
+    }  
+
+    .Contact-Padding p{
+        font-size: 0.95rem;
+    }
+    
 }
 
 
