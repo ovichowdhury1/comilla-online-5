@@ -54,10 +54,12 @@
 
 @media (max-width: 768px) {
     .footer-logo {
-        width: 39px !important;
+        width:70px !important;
         height: auto !important;
         display: block;
     }
+
+   
 }
 
 @media (max-width: 480px) {
@@ -65,6 +67,7 @@
         width: 100px;
         height: 100px;
     }
+    
 }
 
 
@@ -555,6 +558,9 @@ ul li {
     .subfooter{
         margin-top: 0 !important;
     }
+    footer {
+        padding: 30px 0 0 0;
+      }
 }
 
 @media (max-width: 576px) {
