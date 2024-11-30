@@ -319,17 +319,6 @@ ul li {
 
 }
 
-@media(max-width: 768px){
-    .popular-tag .text {
-        position: relative;
-        top: -52px;
-        left: 6px;
-        rotate: -45deg;
-        color: #fff;
-}
-
-}
-
 .popular-tag .text p{
     font-weight: 700;
     font-size: 16px;
