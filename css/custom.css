@@ -380,20 +380,29 @@ ul li {
     
     /* Adjust heading sizes */
     .price-card h2 {
-        font-size: 20px; /* Smaller font for headings */
+        font-size: 25px; /* Smaller font for headings */
+        margin-bottom: 0;
+    
     }
 
     .price1 span {
-        font-size: 50px; /* Smaller size for pricing numbers */
+        font-size: 60px; /* Smaller size for pricing numbers */
+    }
+    .price1{
+        margin-bottom: 0;
     }
 
     .price-card p.price {
         font-size: 18px; /* Adjust pricing font size */
+        margin-bottom: 0;
     }
-
+     .margin-mobile{
+        margin-left: 10px;
+        margin-right: 10px;
+     }
     /* Adjust text sizes */
     .price-card p {
-        font-size: 14px; /* Smaller text for descriptions */
+        font-size: 15px; /* Smaller text for descriptions */
     }
 
     /* Center align pricing details */
@@ -406,6 +415,7 @@ ul li {
     /* Pricing offer list */
     .pricing-offers li {
         font-size: 14px; /* Smaller font for features */
+        padding-bottom: 0;
     }
 
     /* Buttons */
