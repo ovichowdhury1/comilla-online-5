@@ -15,6 +15,9 @@
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
+    .sm-pt10{
+        padding-top: 0;
+    }
     header.header-mobile{
         padding-bottom: 0 !important;
     }
