@@ -15,6 +15,9 @@
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
+    header.header-mobile{
+        padding-bottom: 0 !important;
+    }
     .logo-main {
         display: none !important;
     }
@@ -22,7 +25,7 @@
     .logo-mobile {
         display: block !important;
         /* Adjust the size for mobile view */
-        width: 39px !important; /* Example size, adjust as needed */
+        width: 60px !important; /* Example size, adjust as needed */
         height: auto !important; /* Maintain aspect ratio */
     }
     #menu-btn{
@@ -423,6 +426,12 @@ ul li {
         justify-content: center;
         margin-top: 10px;
     }
+
+    .popular-tag .text p{
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
 }
 
 
@@ -534,7 +543,9 @@ ul li {
 
 /* Footer */
 
-
+.helpdesk-margin{
+      padding-bottom: 0;
+}
 .social-icon-design a i{
     border-radius: 50%;
 }
