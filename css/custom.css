@@ -36,6 +36,35 @@
     }
 }
 
+
+/* General Styles for Main Menu */
+#mainmenu > li {
+    display: block; /* Ensure all list items are visible by default */
+}
+
+/* Hide Specific Items on Mobile Screens */
+@media (max-width: 768px) {
+    #mainmenu{
+        margin-top: 0 !important;
+    }
+    #mainmenu > li:nth-child(1), /* Home */
+    #mainmenu > li:nth-child(2), /* About Us */
+    #mainmenu > li:nth-child(3), /* Packages */
+    #mainmenu > li:nth-child(4), /* Clients */
+    #mainmenu > li:nth-child(5) { /* Contact */
+        display: none !important; /* Ensure these items are hidden */
+    }
+
+    #mainmenu > li:nth-child(6) {
+        display: block !important; /* Ensure MEDIA & FTP SERVERS remains visible */
+    }
+
+    #mainmenu > li:nth-child(6) > ul {
+        display: block !important; /* Ensure submenu items are visible */
+    }
+}
+
+
 /* Media query for larger screens (tablets and desktops) */
 @media (min-width: 769px) {
     .logo-main {
