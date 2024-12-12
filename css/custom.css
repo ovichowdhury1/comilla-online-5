@@ -646,13 +646,16 @@ ul li {
 /* Tablet styles */
 @media (max-width: 768px) {
     .slider-title {
-        font-size: 2rem !important; /* reduce for tablets */
+        font-size: 3.8rem !important; /* reduce for tablets */
     }
     .subtitle {
-        font-size: 1.25rem !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
     }
     .slider-teaser {
-        font-size: 0.9rem !important;
+        font-size: 16px !important;
+        line-height: 1.6em !important;
+        font-weight: 400 !important;
     }
 }
 
